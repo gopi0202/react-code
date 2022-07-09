@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.image-carousel {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.refresh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
